@@ -1,0 +1,295 @@
+/* Global Styles */
+body {
+    padding-top: 80px; /* Adjusted to match the height of your fixed navbar */
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background color */
+  }
+  
+  .navbar {
+    background-color: #343a40 !important; /* Dark background for the navbar */
+  }
+  
+  .navbar-brand img {
+    max-height: 40px;
+    width: auto;
+  }
+  
+  .section-heading {
+    margin-bottom: 30px;
+    color: #dc3545; /* Red color for headings */
+  }
+  
+  .section-subheading {
+    margin-bottom: 40px;
+  }
+  
+  .card-img-top {
+    height: 200px; /* Fixed height for the card images */
+    object-fit: cover;
+  }
+  
+  .card {
+    transition: transform 0.3s ease; /* Smooth scaling transition for cards */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Lift the card slightly on hover */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Media Queries */
+  @media (min-width: 768px) {
+    .navbar {
+      padding: 15px 0; /* Adjusted padding for larger screens */
+    }
+  }
+/* Reset Default Margin and Padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding-top: 56px;
+  }
+  
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar-brand img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffc107;
+  }
+  
+  /* Section Title Styling */
+  .section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .section-title p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #777;
+  }
+  
+  /* Service Card Styling */
+  .card {
+    border: none;
+    border-radius: 0;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    border-radius: 0;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+  }
+  
+  .list-unstyled li {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    color: #fff;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  footer a {
+    color: #ffc107;
+  }
+  
+  footer a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  /* Additional custom styles */
+  body {
+    padding-top: 70px; /* Adjusted to match the height of your fixed navbar */
+  }
+
+  h1 {
+    margin-top: 20px; /* Optional adjustment to create space between navbar and heading */
+  }
+
+  .map-container {
+    margin-top: 20px; /* Adjust spacing between map and content */
+  }
+  
+.navbar-brand img {
+  max-height: 40px; 
+  width:auto;
+  }
+
+
+
+
+  /* road css  */
+
+  .cab-area {
+    position: relative;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  }
+.cab-area .overlay-bg {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(14, 14, 14, 0.6); /* Optional: Add a dark overlay */
+}
+
+.cab-area {
+margin-top: -120px;
+}
+h1{
+  padding-top: 70px;
+}
+.cab-area .title p  h1{
+  
+color: rgba(255, 255, 255, 0.8); /* White color with 80% opacity */
+font-size: 18px; /* Adjust font size as needed */
+text-align: center; /* Center align the text */
+margin-bottom: 30px; /* Optional: Adjust margin */
+}
+
+
+
+
+/* train css  */
+  .train-area {
+background-image: url(/Pages-inside//img/train.jpg);
+background-size: cover; /* Ensure the image covers the entire area */
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Prevent the image from repeating */
+position: relative;
+height: 300px;
+}
+
+.train-area .overlay-bg {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(14, 14, 14, 0.6); /* Optional: Add a dark overlay */
+}
+
+.train-area {
+margin-top: -120px;
+}
+h1{
+  padding-top: 70px;
+}
+.train-area .title p  h1{
+  
+color: rgba(255, 255, 255, 0.8); /* White color with 80% opacity */
+font-size: 18px; /* Adjust font size as needed */
+text-align: center; /* Center align the text */
+margin-bottom: 30px; /* Optional: Adjust margin */
+}
+
+/* metro css  */
+
+.service-area {
+background-image: url(./img/image.png);
+background-size: cover; /* Ensure the image covers the entire area */
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Prevent the image from repeating */
+position: relative;
+height: 300px;
+
+}
+
+.service-area .overlay-bg {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(14, 14, 14, 0.6); /* Optional: Add a dark overlay */
+}
+
+.services-area {
+margin-top: -120px;
+}
+h1{
+  padding-top: 70px;
+}
+.service-area .title p  h1{
+  
+color: rgba(255, 255, 255, 0.8); /* White color with 80% opacity */
+font-size: 18px; /* Adjust font size as needed */
+text-align: center; /* Center align the text */
+margin-bottom: 30px; /* Optional: Adjust margin */
+}
+  /* Additional custom styles */
+  body {
+    padding-top: 70px; /* Adjusted to match the height of your fixed navbar */
+  }
+
+  h1 {
+    margin-top: 20px; /* Optional adjustment to create space between navbar and heading */
+  }
+
+  .map-container {
+    margin-top: 20px; /* Adjust spacing between map and content */
+  }
+  
+.navbar-brand img {
+  max-height: 40px; 
+  width:auto;
+  }
+
+ul li{
+  text-align: left;
+  list-style:square ;
+}
+
+
+  

@@ -1,0 +1,342 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f3f4f6;
+    color: #333;
+}
+
+header {
+    background-color: #003580;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #0066cc;
+    border-radius: 5px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #777;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+}
+
+.list-unstyled li {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+footer {
+    color: #fff;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer a {
+    color: #ffc107;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    padding-top: 70px; /* Adjusted to match the height of your fixed navbar */
+}
+
+h1 {
+    margin-top: 20px; /* Optional adjustment to create space between navbar and heading */
+}
+
+.map-container {
+    margin-top: 20px; /* Adjust spacing between map and content */
+}
+
+.navbar-brand img {
+    max-height: 40px;
+    width: auto;
+}
+
+.cab-area, .train-area, .service-area {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 85%;
+    border-radius: 15px;
+}
+
+.cab-area .overlay-bg, .train-area .overlay-bg, .service-area .overlay-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(14, 14, 14, 0.7); /* Optional: Add a dark overlay */
+    border-radius: 15px;
+}
+
+h1 {
+    padding-top: 0px;
+    
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-height: 300px;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.rooms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.room-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+.room-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.room-card img {
+    width: 80%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    border-width: 5px;
+    border-color: #ccc;
+    margin-bottom: 15px;
+    width: 100%;
+    align-self: center;
+    all
+
+}
+
+.room-card:hover img {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    
+ 
+}
+
+.room-card h3 {
+    color: #272727;
+    margin: 10px 0;
+}
+
+.room-card p {
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.discount {
+    color: #ff0000;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ffeb3b;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0b1d36;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2b5885;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+    background: #fff;
+    color: #333;
+    border-radius: 10px;
+
+}
+
+.gallery-container {
+    display: flex;
+    gap: 20px;
+    border-radius: 50px;
+
+
+}
+
+.gallery-container img {
+
+height: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+form label {
+    margin: 10px 0 5px;
+    width: 100%;
+}
+
+form input, form textarea {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #003580;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0066cc;
+}
+
+h2 {
+    color: #0e1d33;
+    margin-bottom: 20px;
+}
+
+ul li {
+    text-align: left;
+    list-style: square;
+}

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Pages-inside/css/style.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- Bootstrap core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/temp.css" rel="stylesheet">
+
+
+<style>
+
+
+
+#text li a{
+    color: #c5bfbf;
+    font-size: larger;
+  
+}
+#text1{
+    color: #fff;
+}
+#text li a:hover{
+    color: #fff;
+}
+#travel{
+   background: none;
+   justify-content: center;
+   margin-top: 30px;
+}
+#imgt{
+    float: right;
+    margin-top: -40px;
+    justify-content: right;
+}
+#travel1{
+    color: rgb(30, 30, 34);
+}
+table {
+    width: 80%;
+    border: 1 px solid;
+    padding-left: 30px;
+    justify-content: space-between   
+}
+table td button a {
+    padding-left: 20px;
+    margin: 30px 40px !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+table th {
+    padding-left: 20px;
+    margin: 30px 10px 10px 10px !important;
+    font-style:italic;
+}
+button {
+    
+    background-color: rgb(78, 78, 78);
+    padding: 10px;
+    height: 20px;
+    width: 60px;
+   
+}
+button a:hover{
+    color: #fff !important;
+    border-radius: 20% ;
+    text-decoration: none !important;
+    list-style: none;
+}
+button a{
+    list-style: none;
+    color: #fff !important;
+    text-decoration: none;
+}
+button:hover{
+    -ms-zoom-animation: default;
+}
+table td{
+    margin: 30px 10px 10px 10px !important;
+    padding: 30px 10px 10px 10px !important;
+}
+li{
+    text-decoration:none !important;
+    
+}
+
+ul li{
+    text-align: center;
+}
+.toursim{
+    background-image: url(tourism-view.webp);
+    height: 350px;
+    width: 100% !important;
+    animation: 120s linear infinite reverse bannerbg;
+    top: auto;
+    bottom: 10px;
+    z-index: 1;
+}
+.flight {
+    background-image: url(flight.webp);
+    height: 48px;
+    width: 160px;
+    top: 20px;
+    z-index: 1;
+    animation: 150s linear infinite flight;
+}
+
+.bus,
+    .cruise,
+    .train {
+        background-position: center;
+        background-repeat: repeat;
+        top: auto;
+        z-index: 1;
+        position: absolute;
+        left: 0;
+    }
+.train {
+    background-image: url(htrain.webp);
+    height: 60px;
+    width: 100%;
+    bottom: 95px;
+    animation: 35s linear infinite train;
+}
+.bus {
+    background-image: url(bus.webp);
+    height: 58px;
+    width: 150px;
+    bottom: 78px;
+    animation: 50s linear infinite reverse bus;
+}
+.cruise {
+    background-image: url(cruise.webp);
+    height: 102px;
+    width: 339px;
+    bottom: 15px;
+    animation: 90s linear infinite cruise;
+}
+.background .sea {
+    background-image: url(sea.webp);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+@keyframes bannerbg {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 3500px;
+    }
+}
+@keyframes cruise {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(3500px);
+    }
+}
+@keyframes flight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(3500px);
+    }
+}
+@keyframes bus {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(3600px);
+    }
+}
+@keyframes train {
+    0% {
+        transform: translateX(-2000px);
+    }
+    100% {
+        transform: translateX(3500px);
+    }
+}
+.demo-banner-wrap.view.festivalbanner {
+    max-height: 379px;
+}
+</style>
+
+</head>
+<body>
+    <style>
+        /* Additional custom styles */
+        body {
+          padding-top: 70px; /* Adjusted to match the height of your fixed navbar */
+        }
+    
+        h1 {
+          margin-top: 20px; /* Optional adjustment to create space between navbar and heading */
+        }
+    
+        .map-container {
+          margin-top: 20px; /* Adjust spacing between map and content */
+        }
+        
+      .navbar-brand img {
+        max-height: 40px; 
+        width:auto;
+        }
+    </style>
+    
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+    <a class="navbar-brand" href="../index.html"><img src="../img/amchi mumbai.png" alt="Aamchi Mumbai!"></a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Back</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    </nav>
+
+
+
+
+     <div class="container">
+        <div class="jumbotron text-left" id="travel" >
+            <h2 id="travel1">TRAVELS <span><img id="imgt" class="img-responsive img-circle" src="img/travels.jpg" alt=""></span> </h2>
+            
+        <br><br><br><br><br><br></div>
+    </div>
+
+        <div class="container">
+            <h2>Mumbai Darshan Cab Service</h2>
+            <hr>
+        <h4>We provide cabs for Mumbai Darshan, Mumbai sightseeing tour, full day & half day Mumbai sightseeing from anywhere in Mumbai. Book Mumbai Darshan cab from us and get instant discount of Rs.100 on your taxi booking. So, why are you waiting for? book a cab right away and enjoy your Mumbai Darshan trip with family and friends and unlock sweet memories.</h4>
+       <table border="2">
+        <h2>Mumbai Darshan Full Day Cab Fare</h2>
+          <tr>
+            <th>Car (Sitting Capacity)</th>
+            <th>8 Hrs / 80 KM</th>
+            <th>10 Hrs / 100 KM <br>
+                including toll & parking</th>
+            <th>12 Hrs / 120 KM <br>
+                including toll & parking</th>
+                <th>Book</th>
+          </tr>
+              
+          <tr>
+            <td>Toyota INNOVA <br>
+                (6+1)</td>
+            <td>Rs. 3000</td>
+            <td>	Rs. 5000</td>
+            <td>	Rs. 5500</td>
+            <td><a href="/Pages-inside/book.html"></a><button >Book</button></a></td>
+          </tr>
+          <tr>
+            <td>Toyota Innova Crysta <br>
+                (6+1)</td>
+            <td>Rs. 3300</td>
+            <td>	Rs. 6000</td>
+            <td>Rs. 6500</td>
+            <td><a href="/Pages-inside/book.html"></a><button >Book</button></a></td>
+          </tr>
+          <tr>
+            <td>Ertiga <br>
+                (6+1)</td>
+            <td>Rs. 2800 R̶s̶. 2̶90̶0̶</td>
+            <td>Rs. 4000</td>
+            <td>Rs. 4500</td>
+            <td><a href="/Pages-inside/book.html"></a><button >Book</button></a></td>
+          </tr>
+          <tr>
+            <td>Logan/Verito <br>
+                (4+1)</td>
+            <td>Rs. 2100</td>
+            <td></td>
+            <td></td>
+            <td><a href="/Pages-inside/book.html"></a><button >Book</button></a></td>
+          </tr>
+          <tr>
+            <td>Tata Winger <br>
+                (9+1)</td>
+            <td>Rs. 5500</td>
+            <td></td>
+            <td>Rs. 9700</td>
+            <td><a href="/Pages-inside/book.html"></a><button >Book</button></a></td>
+          </tr>
+        </table>
+    </div>
+
+
+     <div class="container">
+        <h2>Mumbai Darshan Train service</h2>
+        <hr>
+        <h3>Mumbai Local Train Map:-</h3>
+        <img class="img-responsive img-thumbnail" src="img/mumbai-train-map.jpg" alt="123">
+     </div>
+
+
+     <div class="container">
+        <h2>Mumbai Darshan Metro service</h2>
+        <hr>
+        <h3>Mumbai Metro-Information, Route Maps, Fares & Updates</h3>
+        <h4>Mumbai Metro – Operational Lines <br>
+            Line-1 – Blue Line: Versova – Andheri – Ghatkopar (11.4 km, 12 stations)</h4>
+            <li> Operator: Mumbai Metro One Private Ltd. [JV of Reliance Infra (69%), MMRDA (26%) & Veolia Transport (5%)]</li>
+            <li>Stations: Versova, D.N. Nagar, Azad Nagar, Andheri, Western Express Highway (WEH), Chakala, Airport Road, Marol Naka, Saki Naka, Asalpha, Jagruti Nagar, Ghatkopar</li>
+            <li> Depot: Four Bungalows (DN Nagar)
+            </li>
+
+            <h4>Line-2A – Yellow Line: Dahisar (East) – Andheri West (18.6 km, 17 stations)</h4>
+            <li> Owner: Mumbai Metropolitan Region Development Authority (MMRDA)</li>
+            <li>Operator: Maha Mumbai Metro Operations Corporation (MMMOCL)</li>
+            <li>Depot: Malvani in Charkop (shared with Red Line)</li>
+            <li>In-depth line information can be viewed here</li>
+
+            <h4>
+                Line-7 – Red Line: Dahisar (East) –  Gundavali (16.5 km, 14 stations)</h4>
+                <li> Owner: Mumbai Metropolitan Region Development Authority (MMRDA)</li>
+                <li>Operator: Maha Mumbai Metro Operations Corporation (MMMOCL)</li>
+                <li>Depot: Malvani in Charkop (shared with Yellow Line) & Dahisar East</li>
+                <li>Note: In the future, this line will be extended to Mira-Bhayander in the north (Line-9 with 8 stations) and to CSI Airport’s Terminal-2 (Line-7A with 2 stations)</li>
+                <li> In-depth line information can be viewed here</li>
+     <br>
+     <br>
+        <img class="img-responsive img-thumbnail" src="img/metro1.jpg" alt="123">
+</div>
+</body>
+</html>

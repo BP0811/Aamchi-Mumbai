@@ -1,0 +1,145 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 60px 0 20px;
+    position: relative;
+}
+
+header .profile-img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+header .profile-img img {
+    width: 30%;
+    height: auto;
+    border-radius: 30%;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    margin-top: 60px;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: 300;
+}
+
+nav {
+    background: #930909;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h4 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.project p, .project ul {
+    margin: 0;
+    padding: 0;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    margin-bottom: 10px;
+}
+
+.skills span {
+    margin-left: 10px;
+    font-size: 1em;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact ul li {
+    margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .contact ul {
+        flex-direction: column;
+    }
+
+    .contact ul li {
+        margin: 10px 0;
+    }
+}
