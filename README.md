@@ -1,4 +1,5 @@
-Aamchi Mumbai - The Ultimate Guide to Mumbai 🌆✨
+Aamchi Mumbai
+The Ultimate Guide to Mumbai 🌆✨
 Aamchi Mumbai is a comprehensive travel guide website built using HTML, CSS, JavaScript, and Bootstrap. It covers everything you need to explore Mumbai, including:
 
 🍽️ Food & Restaurants – From street food to fine dining
@@ -21,4 +22,4 @@ Google Fonts & Icons for a stylish look
 Flexbox & Grid Layouts for a modern UI
 🚀 Live Demo (if hosted on GitHub Pages): [Add Your GitHub Pages Link]
 
-👨‍💻 Developed by: [Your Name]
+👨‍💻 Developed by: Bhushan Parkar
